@@ -1,5 +1,3 @@
-# Bass fitting of annual neologism use
-
 This repository contains data and analysis scripts accompanying the paper
 [*Modeling Emerging Online Language: A Framework for Analyzing Neologism Diffusion Over Time*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7532402),
 currently available as an SSRN preprint.
