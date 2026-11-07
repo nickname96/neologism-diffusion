@@ -1,0 +1,29 @@
+BASS ANALYSIS SUMMARY
+
+Study period: 2006--2024.
+Inclusion: at least 500 term uses and 6 annual observations from first observed use.
+Intervening years with no recorded occurrences are included as zero counts.
+Cumulative counts are fitted directly; m, p and q are estimated jointly.
+The observed cumulative total supplies the lower bound for m.
+NRMSE is RMSE divided by the observed range of cumulative counts.
+Parameter intervals are approximate 95% log-scale covariance-based intervals.
+
+ platform input_terms eligible_trajectories fitted_trajectories fitting_errors     median_p  median_q median_NRMSE
+   Reddit         227                   128                 128              0 0.0012538159 0.4413929   0.01779887
+  YouTube         219                   111                 111              0 0.0002035731 0.5285569   0.01924121
+
+FIGURES
+example_fits.png: the four example trajectories used in the paper.
+bass_parameters.png: paper-style parameter plane and cross-platform parameter comparisons.
+fit_error.png: distribution of NRMSE by platform.
+
+Counts describe term-comment matches, not distinct users. A comment may match several terms.
+Fitted parameters summarize the observed curves; the figures are descriptive.
+
+R: 4.6.1
+minpack.lm 1.2.4
+ggplot2 4.0.3
+ggrepel 0.9.8
+patchwork 1.3.2
+paletteer 1.7.0
+scales 1.4.0
