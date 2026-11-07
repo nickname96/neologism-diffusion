@@ -44,9 +44,6 @@ Offensive terms are left unlabelled in the figures.
 For further information about the extraction pipeline, you are referred to the 
 methods section of the [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7532402).
 
-For further information about the extraction pipeline, you are referred to the 
-methods section of the [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7532402).
-
 ## Fitting procedure
 
 The default analysis retains trajectories with at least 500 total uses and six
