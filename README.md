@@ -38,7 +38,11 @@ The two CSVs in `data/` contain `year`, `neologism`, and `count`.
 The platform is identified by the filename. Counts are annual term-comment
 matches for 2006--2024 obtained from the original dataset.
 
-`neologism_categories.csv` provides the categories and display labels used in the plots.
+`neologism_categories.csv` provides the semantic categories and display labels used in the plots. 
+The `label_to_show` column contains labels only for non-offensive neologisms. 
+Offensive terms are left unlabelled in the figures.
+For further information about the extraction pipeline, you are referred to the 
+methods section of the [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7532402).
 
 For further information about the extraction pipeline, you are referred to the 
 methods section of the [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7532402).
